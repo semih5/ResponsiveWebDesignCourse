@@ -1,4 +1,15 @@
 *{
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: #eeecec;
+    margin: 3% 3%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
 }

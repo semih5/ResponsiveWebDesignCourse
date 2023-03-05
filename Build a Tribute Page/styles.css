@@ -13,3 +13,56 @@ main{
     max-width: 100%;
     height: auto;
 }
+h1, p{
+    text-align: center;
+    color: #303030;
+}
+p{
+    font-size: 80%;
+}
+h1{
+    font-size: 200%;
+}
+#img-div{
+    background-color: #fffdfd;
+    padding: 1%;
+    border-radius: 10px;
+    display: block;
+}
+#img-div img{
+    border-radius: 10px;
+    width: 100%;
+}
+#img-div figcaption{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    max-width: 90%;
+    font-size: 75%;
+    color: #303030;
+    text-align: center;
+}
+
+#tribute-info{
+    padding: 0% 3% ;
+}
+#tribute-info h2{
+    font-size: 140%;
+    text-align: center;
+    color: #303030;
+    padding: 5%;
+}
+#tribute-info>ul{
+    color: #393939;
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+#tribute-info>ul>li{
+    color: #393939;
+    padding-top: 2%;
+    display: list-item;
+}

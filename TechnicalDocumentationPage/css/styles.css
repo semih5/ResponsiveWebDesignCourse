@@ -63,7 +63,10 @@ code{
     padding: 2%;
     margin: 3%;
     position: relative;
-    border-radius: 10px;;
+    border-radius: 10px;
+}
+section{
+  padding-bottom: 2.5em;
 }
 section li{
     margin: 2% 4%;

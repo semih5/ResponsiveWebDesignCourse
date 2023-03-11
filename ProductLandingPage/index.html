@@ -8,9 +8,9 @@
     <title>Cream+</title>
 </head>
 <body>
-    <header id="header">Cream+ 
-        <img src="https://cdn-icons-png.flaticon.com/512/2840/2840959.png" alt="logo" id="header-img">
-        <nav id="nav-bar">
+    <header id="header">
+        <nav id="nav-bar"> 
+            <div class="logo"><img src="logo.png" alt="cream+ logo" id="header-img"></div>           
             <ul>
                 <li><a class="nav-link" href="#Features">Features</a></li>
                 <li><a class="nav-link" href="#How_it_works">How it works</a></li>
@@ -21,13 +21,79 @@
 
     <main>
         <h1>World's Best Moisturizing Cream</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis blanditiis  architecto similique est fuga facilis.</p>
-                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
-            <label for="email">Enter your email address for 10% discount and to subscribe our newsletter:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-            <input type="submit" id="submit" value="Subscribe">
-          </form>
+        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis blanditiis  architecto similique est fuga facilis.</p>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Enter your email address for 10% discount and to subscribe our newsletter: <br></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Subscribe" class="submitbtn">
+            </form>
+
+            <section class="main-section" id="Features">
+                <div>
+                    <div class="icon"><i class="fa-solid fa-spray-can-sparkles"></i></div>
+                    <h2>Fragrance-Free: </h2>
+                    <p>Cream+ is fragrance-free, making it ideal for those with sensitive skin.</p>
+                </div>
+
+                <div>
+                    <div class="icon"><i class="fa-brands fa-pagelines"></i></div>
+                    <h2>Lightweight Texture: </h2>
+                    <p>Cream+ has a lightweight texture that absorbs quickly into your skin, without leaving any greasy residue.</p>
+                </div>
+                
+                <div>
+                    <div class="icon"><i class="fa-solid fa-tree"></i></div>
+                    <h2>Natural Ingredients:</h2>                    
+                    <p>Cream+ is made with natural ingredients like aloe vera, coconut oil, and shea butter, to nourish and soothe your skin.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="How_it_works">
+                <iframe id="video" src="https://www.youtube.com/watch" frameborder="0" allowfullscreen=""></iframe>
+            </section>
+
+            <section class="main-section" id="Pricing">
+                <div class="product" id="starter">
+                    <div class="heading">Starter Pack</div>
+                    <h3>10$</h3>
+                    <ul class="pack">
+                        <li>Testers included</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <button class="selectbtn">Select</button>
+                </div>
+                <div class="product" id="standard">
+                    <div class="heading">Standard Pack</div>
+                    <h3>20$</h3>
+                    <ul class="pack">
+                        <li>Face cream</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <button class="selectbtn">Select</button>
+                </div>
+                <div class="product" id="pro">
+                    <div class="heading">Pro Pack</div>
+                    <h3>30$</h3>
+                    <ul class="pack">
+                        <li>Most preferred</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <button class="selectbtn">Select</button>
+                </div>
+            </section>
     </main>
-    
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <span>
+            Copyright 2023, Cream+
+        </span>
+    </footer>
 </body>
 </html>

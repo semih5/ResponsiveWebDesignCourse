@@ -1,0 +1,67 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  padding: 10px;
+}
+
+nav {
+  z-index: 1;
+  position: sticky;
+  width: 100%;
+  height: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(247, 141, 63, 1);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #102e37;
+}
+.active {
+  background-color: #04aa6d;
+}
+
+.about-me {
+  background: linear-gradient(100deg, #303030, #091a1f 90%);
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.work {
+  background: #24a1b9;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact {
+  background: #050f12;
+  color: #ffffff;
+}
+
+.footer {
+  background: #050f12;
+  color: #ffffff;
+}

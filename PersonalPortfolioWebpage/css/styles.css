@@ -1,6 +1,9 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+main {
+  margin-top: 49px;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -8,18 +11,22 @@
   padding: 10px;
 }
 
-nav {
-  z-index: 1;
-  position: sticky;
+.nav {
+  z-index: 999;
+  position: fixed;
   width: 100%;
-  height: 50px;
+  min-height: 50px;
+  top: 0;
+  right: 0;
+  left: 0;
 }
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgba(247, 141, 63, 1);
+  position: sticky;
 }
 
 li {
@@ -44,10 +51,24 @@ li a:hover {
 .about-me {
   background: linear-gradient(100deg, #303030, #091a1f 90%);
   width: 100%;
-  height: 500px;
-  margin: 0;
+  height: 700px;
   color: #ffffff;
+  left: 0;
+  right: 0;
+}
+.about-me h1,
+p {
   text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.about-me p {
+  font-style: italic;
+  font-size: 150%;
+}
+.about-me h1 {
+  padding-top: 300px;
+  font-size: 300%;
 }
 
 .work {
@@ -64,4 +85,14 @@ li a:hover {
 .footer {
   background: #050f12;
   color: #ffffff;
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid #24a1b9;
+  left: 0;
+  right: 0;
+}
+.footer p {
+  padding: 30px 5px;
+  text-align: center;
+  font-size: small;
 }

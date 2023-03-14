@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -5,7 +8,9 @@ body {
 main {
   margin-top: 49px;
 }
-
+h2 {
+  font-size: 200%;
+}
 .grid-container-project {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -14,6 +19,17 @@ main {
   place-items: center;
   max-width: 1200px;
   margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .grid-container-project {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding: 10px;
+    place-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
 }
 .grid-container-project img {
   object-fit: cover;
@@ -31,6 +47,9 @@ main {
   color: #ffffff;
   border-radius: 8px;
   box-shadow: 8px 8px 10px 8px rgba(100, 100, 100, 0.3);
+}
+.project-tile:hover {
+  box-shadow: 8px 8px 10px 8px rgba(67, 67, 67, 0.7);
 }
 
 .grid-container-contact {
@@ -122,6 +141,11 @@ p {
   right: 0;
   border-top: 2px solid #24a1b9;
   padding: 20px;
+  font-size: 120%;
+}
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer {

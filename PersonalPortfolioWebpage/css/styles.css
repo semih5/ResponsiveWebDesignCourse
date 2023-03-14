@@ -1,10 +1,10 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
 }
 main {
   margin-top: 49px;
 }
+
 .grid-container-project {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -23,7 +23,7 @@ main {
   flex-direction: column;
   display: flex;
   height: 100%;
-  width: 100%s;
+  width: 100%;
   align-items: center;
   justify-content: center;
   background-color: rgba(247, 141, 63, 1);

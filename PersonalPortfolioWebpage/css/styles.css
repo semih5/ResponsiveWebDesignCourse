@@ -53,7 +53,7 @@ h2 {
 }
 
 .grid-container-contact {
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-columns: auto auto;
   padding: 20px;
@@ -159,7 +159,6 @@ p {
   position: absolute;
 }
 .footer p {
-  padding: 30px 5px;
-  text-align: center;
+  padding: 50px 5px;
   font-size: small;
 }

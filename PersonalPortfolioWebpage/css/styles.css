@@ -1,5 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 main {
   margin-top: 49px;
@@ -111,6 +112,7 @@ p {
   text-decoration: underline;
   left: 0;
   right: 0;
+  padding: 20px;
 }
 
 .contact {
@@ -118,22 +120,19 @@ p {
   color: #ffffff;
   left: 0;
   right: 0;
-  width: 100%;
-  overflow: hidden;
-  width: 100%;
   border-top: 2px solid #24a1b9;
-  margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 .footer {
   background: #050f12;
   color: #ffffff;
-  overflow: hidden;
   width: 100%;
   border-top: 2px solid #24a1b9;
   margin: 0;
   padding: 0;
+  bottom: 1;
+  position: absolute;
 }
 .footer p {
   padding: 30px 5px;

@@ -9,6 +9,9 @@ main {
   grid-template-columns: auto auto auto;
   gap: 30px;
   padding: 10px;
+  place-items: center;
+  max-width: 1200px;
+  margin: auto;
 }
 .grid-container-project img {
   object-fit: cover;
@@ -20,6 +23,10 @@ main {
   display: flex;
   height: 100%;
   width: 100%s;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(247, 141, 63, 1);
+  color: #ffffff;
 }
 
 .grid-container-contact {

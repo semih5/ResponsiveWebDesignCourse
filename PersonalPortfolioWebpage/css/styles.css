@@ -1,5 +1,6 @@
-* {
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
 }
 main {
   margin-top: 49px;
@@ -27,6 +28,8 @@ main {
   justify-content: center;
   background-color: rgba(247, 141, 63, 1);
   color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 8px 8px 10px 8px rgba(100, 100, 100, 0.3);
 }
 
 .grid-container-contact {
@@ -106,21 +109,31 @@ p {
   background: #24a1b9;
   color: #ffffff;
   text-decoration: underline;
+  left: 0;
+  right: 0;
 }
 
 .contact {
   background: #050f12;
   color: #ffffff;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  width: 100%;
+  border-top: 2px solid #24a1b9;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
   background: #050f12;
   color: #ffffff;
-  position: absolute;
+  overflow: hidden;
   width: 100%;
   border-top: 2px solid #24a1b9;
-  left: 0;
-  right: 0;
+  margin: 0;
+  padding: 0;
 }
 .footer p {
   padding: 30px 5px;

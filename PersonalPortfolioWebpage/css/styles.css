@@ -4,11 +4,35 @@
 main {
   margin-top: 49px;
 }
-.grid-container {
+.grid-container-project {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
   padding: 10px;
+}
+.grid-container-project img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.project-tile {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%s;
+}
+
+.grid-container-contact {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  text-align: center;
+}
+.github,
+.email {
+  display: inline-block;
+  padding: 2%;
 }
 
 .nav {
@@ -51,7 +75,7 @@ li a:hover {
 .about-me {
   background: linear-gradient(100deg, #303030, #091a1f 90%);
   width: 100%;
-  height: 700px;
+  height: 100vh;
   color: #ffffff;
   left: 0;
   right: 0;
@@ -67,11 +91,11 @@ p {
   font-size: 150%;
 }
 .about-me h1 {
-  padding-top: 300px;
+  padding-top: 20%;
   font-size: 300%;
 }
 
-.work {
+.projects {
   background: #24a1b9;
   color: #ffffff;
   text-decoration: underline;
